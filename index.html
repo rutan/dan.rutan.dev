@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>dan.rutan.dev</title>
+    <meta property="og:title" content="dan.rutan.dev">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dan.rutan.dev/">
+    <meta property="og:image" content="https://cdn.profile-image.st-hatena.com/users/kouki_dan/profile.png?1448722593">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <style>
+        .dan {
+            position: fixed;
+            top: calc(50% - 48px);
+            left: calc(50% - 48px);
+            width: 96px;
+            height: 96px;
+            background: url(https://cdn.profile-image.st-hatena.com/users/kouki_dan/profile.png?1448722593) no-repeat center center / contain;
+            animation: dandan 1s linear infinite;
+        }
+
+        @keyframes dandan {
+            from {
+                transform: rotate(0);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="dan"></div>
+</body>
+</html>
